@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Tangerine';
+  src: url('../../assets/fonts/SVN-Tangerine.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../../assets/fonts/MyriadPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
