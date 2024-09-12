@@ -13,7 +13,8 @@ This boilerplate does not provide a `.sass` version as it would be painful to ma
 Clone it, head into the project and then run:
 
 ```
-sass --watch stylesheets/main.scss:dist/main.css  
+sass --watch stylesheets/main.scss:dist/main.css
+https://vannguyengithub.github.io/deera-fe/
 ```
 
 ### Use with Sass
