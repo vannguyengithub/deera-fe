@@ -2,38 +2,74 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-@font-face {
-  font-family: 'SVN-Gilroy';
-  src: url('../../assets/fonts/SVN-Gilroy\ Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-  
-@font-face {
-  font-family: 'SVN-Gilroy';
-  src: url('../../assets/fonts/SVN-Gilroy\ Bold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-  
-@font-face {
-  font-family: 'SVN-Gilroy';
-  src: url('../../assets/fonts/SVN-Gilroy\ Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SVN-Tangerine';
-  src: url('../../assets/fonts/SVN-Tangerine.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
+// MyriadPro Regular
 @font-face {
   font-family: 'MyriadPro';
   src: url('../../assets/fonts/MyriadPro-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-  
+
+// SVN Gilroy Regular
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// SVN Gilroy Bold
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// SVN Gilroy Italic
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// SVN Gilroy Medium
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// SVN Gilroy SemiBold
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// SVN Gilroy SemiBold Italic
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ SemiBold\ Italic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+// SVN Gilroy XBold
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../assets/fonts/SVN-Gilroy\ XBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+// SVN Tangerine
+@font-face {
+  font-family: 'Tangerine';
+  src: url('../../assets/fonts/SVN-Tangerine.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -20,25 +20,126 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 80px;
-    max-width: 637px;
-    margin: 0 auto;
-    &-star {
-        width: 33.5px;
-        height: 33.5px;
+    // max-width: 637px;
+    // margin: 0 auto;
+}
+
+.deera__banner {
+    &-img {
+        width: 637px;
+        height: 154px;
+        margin: 0 auto;
         img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+        }
+    }
+    &-text {
+        width: 402.9px;
+        text-align: center;
+        font-size: 16.8px;
+        color: #000000;
+        margin: 30px auto 0 auto;
+    }
+}
+
+.deera__introduce {
+    background: #F0E9E1;
+    &-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &-ttl {
+        font-family: 'Tangerine';
+        text-align: center;
+        font-size: 132.6px;
+    }
+    &-text {
+        font-family: 'MyriadPro';
+        width: 486px;
+        margin: 0 auto;
+        font-size: 16.8px;
+        color: #000000;
+    }
+}
+.deera__image {
+    &-box {
+        position: relative;
+        padding: 48px 8px;
+        height: 950px;
+    }
+    
+}
+.deera__image {
+    &-1 {
+        position: absolute;
+        right: 200px;
+        top: 48px;
+        img {
+            width: 402.54px;
+            height: 269.57px;
+            object-fit: cover;
+        }
+    }
+    &-2 {
+        position: absolute;
+        left: 80px;
+        bottom: 244px;
+        img {
+            width: 339.58px;
+            height: 399.31px;
+            object-fit: cover;
+        }
+    }
+    &-3 {
+        position: absolute;
+        right: 68px;
+        bottom: 48px;
+        img {
+            width: 364.29px;
+            height: 402.54px;
+            object-fit: cover;
         }
     }
 }
-.banner__text{
-    &-sub {
-        text-align: center;
-        font-size: 16.8px;
+.text-loop {
+    background: #F0E9E1;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 150px;
+        padding: 8px;
+        // overflow-y: auto;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        animation: text-loop-animation 15s linear infinite;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        li {
+            flex-shrink: 0;
+            text-transform: uppercase;
+            font-family: "Gilroy";
+            font-weight: 500;
+            display: block;
+            color: #000000;
+            font-size: 23.4px;
+        }
     }
 }
-.house__deera {
-    font-family: 'SVN-Gilroy';
+
+@keyframes text-loop-animation {
+    0% {
+        transform: translate(100%)
+    }
+
+    to {
+        transform: translate(-100%)
+    }
 }

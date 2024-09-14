@@ -342,33 +342,61 @@ a:hover, a:active, a:focus, a:focus-within {
   margin: 0 auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @font-face {
-  font-family: "SVN-Gilroy";
+  font-family: "MyriadPro";
+  src: url("../../assets/fonts/MyriadPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
   src: url("../../assets/fonts/SVN-Gilroy Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "SVN-Gilroy";
+  font-family: "Gilroy";
   src: url("../../assets/fonts/SVN-Gilroy Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "SVN-Gilroy";
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/SVN-Gilroy Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
   src: url("../../assets/fonts/SVN-Gilroy Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "SVN-Tangerine";
-  src: url("../../assets/fonts/SVN-Tangerine.otf") format("opentype");
-  font-weight: normal;
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/SVN-Gilroy SemiBold.otf") format("opentype");
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "MyriadPro";
-  src: url("../../assets/fonts/MyriadPro-Regular.otf") format("opentype");
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/SVN-Gilroy SemiBold Italic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../assets/fonts/SVN-Gilroy XBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url("../../assets/fonts/SVN-Tangerine.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -553,7 +581,7 @@ header {
   margin: 0;
 }
 .menu__list a {
-  font-family: "SVN-Gilroy";
+  font-family: "Gilroy";
   font-weight: 400;
   display: block;
   color: #000000;
@@ -593,27 +621,120 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
-  gap: 80px;
-  max-width: 637px;
+}
+
+.deera__banner-img {
+  width: 637px;
+  height: 154px;
   margin: 0 auto;
 }
-.banner__content-star {
-  width: 33.5px;
-  height: 33.5px;
-}
-.banner__content-star img {
+.deera__banner-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
-
-.banner__text-sub {
+.deera__banner-text {
+  width: 402.9px;
   text-align: center;
   font-size: 16.8px;
+  color: #000000;
+  margin: 30px auto 0 auto;
 }
 
-.house__deera {
-  font-family: "SVN-Gilroy";
+.deera__introduce {
+  background: #F0E9E1;
+}
+.deera__introduce-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.deera__introduce-ttl {
+  font-family: "Tangerine";
+  text-align: center;
+  font-size: 132.6px;
+}
+.deera__introduce-text {
+  font-family: "MyriadPro";
+  width: 486px;
+  margin: 0 auto;
+  font-size: 16.8px;
+  color: #000000;
+}
+
+.deera__image-box {
+  position: relative;
+  padding: 48px 8px;
+  height: 950px;
+}
+
+.deera__image-1 {
+  position: absolute;
+  right: 200px;
+  top: 48px;
+}
+.deera__image-1 img {
+  width: 402.54px;
+  height: 269.57px;
+  object-fit: cover;
+}
+.deera__image-2 {
+  position: absolute;
+  left: 80px;
+  bottom: 244px;
+}
+.deera__image-2 img {
+  width: 339.58px;
+  height: 399.31px;
+  object-fit: cover;
+}
+.deera__image-3 {
+  position: absolute;
+  right: 68px;
+  bottom: 48px;
+}
+.deera__image-3 img {
+  width: 364.29px;
+  height: 402.54px;
+  object-fit: cover;
+}
+
+.text-loop {
+  background: #F0E9E1;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.text-loop ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 150px;
+  padding: 8px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  animation: text-loop-animation 15s linear infinite;
+}
+.text-loop ul::-webkit-scrollbar {
+  display: none;
+}
+.text-loop ul li {
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-family: "Gilroy";
+  font-weight: 500;
+  display: block;
+  color: #000000;
+  font-size: 23.4px;
+}
+
+@keyframes text-loop-animation {
+  0% {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(-100%);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
