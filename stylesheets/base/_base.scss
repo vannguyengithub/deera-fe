@@ -44,3 +44,37 @@ a {
 .overflow-hidden {
   overflow: hidden;
 }
+
+.swiper-button-prev {
+  width: 41.1px !important;
+  height: 41.1px !important;
+  border-radius: 999px;
+  border: 1px solid black;
+  background: #F0E9E1;
+  &::after {
+    font-size: 18px !important;
+    color: #000000;
+  }
+}
+
+.swiper-button-next {
+  width: 41.1px !important;
+  height: 41.1px !important;
+  border-radius: 999px;
+  border: 1px solid black;
+  background: #F0E9E1;
+  &::after {
+    font-size: 18px !important;
+    color: #000000;
+  }
+}
+
+@keyframes text-loop-animation {
+  0% {
+      transform: translate(100%)
+  }
+
+  to {
+      transform: translate(-100%)
+  }
+}

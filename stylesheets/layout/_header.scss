@@ -33,7 +33,7 @@ header {
 .menu__list {
     display: flex;
     align-items: center;
-    // gap: 48px;
+    gap: 8px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -54,11 +54,37 @@ header {
                 background: #000000;
             }
         }
+        &.active {
+            a {
+                color: #F0E9E1;
+                background: #000000;
+            }
+        }
     }
 }
 .hamburger__menu {
     img {
         width: 64px;
         height: 44px;
+    }
+}
+.line-section {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 28px 0;
+}
+
+
+.service {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 45%;
+        padding: 0 36px;
+    }
+    &__right {
+        width: 55%;
     }
 }
