@@ -643,18 +643,6 @@ header {
   padding: 28px 0;
 }
 
-.service__box {
-  display: flex;
-  justify-content: space-between;
-}
-.service__left {
-  width: 45%;
-  padding: 0 36px;
-}
-.service__right {
-  width: 55%;
-}
-
 .common__title {
   font-family: "Tangerine";
   font-size: 132.6px;
@@ -1115,6 +1103,141 @@ main {
 .clients__title {
   text-align: center;
   margin-bottom: 60px;
+}
+
+.service__box {
+  height: 1091px;
+  display: flex;
+  justify-content: space-between;
+}
+.service__left {
+  width: 40%;
+  padding: 0 36px;
+}
+.service__right {
+  width: 60%;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+}
+.service__body {
+  background: #F0E9E1;
+  padding: 80px 40px;
+  border-radius: 53px;
+}
+.service__body-title {
+  text-align: center;
+}
+.service__body-desc {
+  font-family: "Gilroy";
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+.service__commonbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.service__number-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 35px;
+}
+.service__number-list a {
+  font-family: "Gilroy";
+  display: block;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+}
+.service__number-list a.active {
+  color: #F0E9E1;
+  background: #000000;
+}
+.service__number-list a:hover {
+  color: #F0E9E1;
+  background: #000000;
+}
+
+.search__project {
+  margin-top: 65px;
+}
+.search__project-group {
+  position: relative;
+}
+.search__project-group img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 0;
+  top: 19px;
+}
+.search__project-control {
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  padding: 16px 34px;
+  line-height: 100%;
+}
+.search__project-control::placeholder {
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.service__swiper {
+  overflow: hidden;
+}
+
+.project__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.project__list.active {
+  justify-content: center;
+}
+.project__list::-webkit-scrollbar {
+  display: none;
+}
+.project__item {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  height: 472.3px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.project__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project__title {
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 43px;
+  color: #000000;
+  font-family: "Gilroy";
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */

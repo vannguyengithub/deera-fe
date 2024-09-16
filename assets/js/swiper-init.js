@@ -15,11 +15,6 @@ const swiper = new Swiper('.deera__newkol-swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // },
-    // loopAdditionalSlides: 1,
   });
 
   const swiperNews = new Swiper('.news__swiper', {
@@ -29,13 +24,14 @@ const swiper = new Swiper('.deera__newkol-swiper', {
       el: '.swiper-pagination',
       clickable: true,
     },
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // },
-    // loopAdditionalSlides: 1,
   });
 
 
-  
+  // const swiperServices = new Swiper('.service__swiper', {
+  //   loop: true,
+  //   direction: 'vertical', 
+  //   mousewheel: true,      
+  //   slidesPerView: 3,
+  //   spaceBetween: 50,
+  // });
   
