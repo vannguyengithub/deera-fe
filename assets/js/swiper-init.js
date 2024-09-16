@@ -1,7 +1,7 @@
 const swiper = new Swiper('.deera__newkol-swiper', {
     loop: true,
     slidesPerView: 2,
-    spaceBetween: 112,
+    spaceBetween: 100,
     pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
