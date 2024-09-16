@@ -693,7 +693,9 @@ main {
 }
 
 .deera__introduce {
-  background: #F0E9E1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .deera__introduce-content {
   position: absolute;
@@ -752,7 +754,6 @@ main {
 }
 
 .text-loop {
-  background: #F0E9E1;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
 }
@@ -781,6 +782,11 @@ main {
 }
 
 .deera__newkol {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.deera__newkol-custom {
   padding: 296px 8px 146px 8px;
 }
 .deera__newkol-box {
@@ -832,7 +838,7 @@ main {
 }
 .deera__newkol-swiper .swiper-button-prev {
   top: 39%;
-  right: 430px;
+  right: 423px;
   left: unset;
   transform: rotate(180deg);
 }
@@ -1030,7 +1036,7 @@ main {
 }
 
 .deera__lastest {
-  padding: 20px 8px;
+  padding: 50px 8px;
 }
 .deera__lastest-list {
   display: grid;
@@ -1105,6 +1111,11 @@ main {
   margin-bottom: 60px;
 }
 
+.service__inner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .service__box {
   height: 1091px;
   display: flex;
@@ -1119,6 +1130,7 @@ main {
   padding: 40px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .service__body {
   background: #F0E9E1;
@@ -1238,6 +1250,12 @@ main {
   color: #000000;
   font-family: "Gilroy";
   font-weight: 600;
+}
+
+.bg-custome-news {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */

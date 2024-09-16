@@ -44,7 +44,10 @@ main {
 }
 
 .deera__introduce {
-    background: #F0E9E1;
+    // background: #F0E9E1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     &-content {
         position: absolute;
         top: 50%;
@@ -105,7 +108,7 @@ main {
     }
 }
 .text-loop {
-    background: #F0E9E1;
+    // background: #F0E9E1;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     ul {
@@ -135,7 +138,12 @@ main {
 }
 
 .deera__newkol  {
-    padding: 296px 8px 146px 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &-custom {
+        padding: 296px 8px 146px 8px;
+    }
     &-box {
         display: flex;
         justify-content: space-between;
@@ -187,7 +195,7 @@ main {
     padding-right: 50px;
     .swiper-button-prev {
         top: 39%;
-        right: 430px;
+        right: 423px;
         left: unset;
         transform: rotate(180deg);
     }
@@ -392,7 +400,7 @@ main {
 }
 
 .deera__lastest {
-    padding: 20px 8px;
+    padding: 50px 8px;
     &-list {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -471,6 +479,11 @@ main {
 }
 
 .service {
+    &__inner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     &__box {
         height: 1091px;
         display: flex;
@@ -485,6 +498,7 @@ main {
         padding: 40px;
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
     &__body {
         background: #F0E9E1;
@@ -606,4 +620,9 @@ main {
         font-family: "Gilroy";
         font-weight: 600;
     }
+}
+.bg-custome-news {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
