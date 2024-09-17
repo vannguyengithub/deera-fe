@@ -1,0 +1,178 @@
+.banner-detail-kol {
+    .deera__banner-img {
+        width: 1096.88px;
+    }
+}
+
+.kols__detail {
+    padding: 73px 8px 0 8px;
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 53px;
+    }
+    &-left {
+        width: 271px;
+    }
+    &-right {
+        width: 271px;
+    }
+    &-center {
+        flex: 1;
+    }
+    &-imgLeft {
+        width: 100%;
+        height: 405px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &-imgRight {
+        width: 100%;
+        height: 180.43px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &-imgMain {
+        position: relative;
+        width: 100%;
+        padding: 24px 22px;
+        border: 1px solid #000000;
+        border-radius: 330px 330px 40px 40px;
+
+        img {
+            width: 100%;
+            height: 610.83px;
+            object-fit: cover;
+            border-radius: 330px 330px 40px 40px;
+        }
+    }
+    &-star {
+        position: absolute;
+        top: -13px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 26.98px;
+            height: 26.98px;
+        }
+    }
+}
+.information {
+    &__nickname {
+        text-align: center;
+        .common__title {
+            font-size: 106px;
+        }
+    }
+    &__box {
+        margin: 40px 8px 52px 8px;
+    }
+    &__desc {
+        // font-size: 14px;
+        color: #000000;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__name {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    &__namesub {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+}
+.information__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    &-item {
+        text-align: center;
+    }
+    &-icon {
+        text-align: center;
+        img {
+            width: 36px;
+            height: 36px;
+        }
+    }
+    &-name {
+        font-family: 'Gilroy';
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+    &-total {
+        font-family: 'MyriadPro';
+        font-size: 50px;
+        font-weight: 600;
+    }
+    &-desctext {
+        margin-top: 40px;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 150%;
+    }
+    &-body {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-inner {
+        max-width: 809.8px;
+        margin: 0 auto;
+        padding: 64px 100px;
+    }
+}
+.bg-border-right {
+    flex: 1;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-radius: 280px 0 0 0;
+}
+.bg-border-left {
+    flex: 1;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-radius: 0 280px 0 0;
+}
+.btn-follow {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        color: #fff;
+        background: #000000;
+        border-radius: 9999px;
+        font-size: 30.6px;
+        text-transform: uppercase;
+        padding: 10px 90px;
+        img {
+            width: 30px;
+            height:  30px;
+        }
+    }
+}
+.page-bg-details {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
