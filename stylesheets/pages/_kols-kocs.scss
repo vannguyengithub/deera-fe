@@ -189,10 +189,59 @@
     }
 }
 .showmore {
+    position: relative;
     .introKolKoc__content-btn {
         justify-content: center;
         a {
             padding: 15px 20px;
+        }
+    }
+}
+.filter__kol {
+    &-box {
+        position: absolute;
+        bottom: 24px;
+        right: 0;
+    }
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        // max-width: 364px
+    }
+    &-label {
+        font-size: 16.8px;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+    }
+    &-btn {
+        width: 130px;
+        a {
+            padding: 8px;
+            display: block;
+            text-align: center;
+            background-color: #000000;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 9999px;
+        }
+    }
+    &-search {
+        border: 1px solid #000000;
+        border-radius: 99999px;
+        input {
+            display: block;
+            border: none;
+            outline: none;
+            background: #000000;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 9999px;
+            padding: 8px;
+            &::placeholder {
+                color: #fff;
+                font-size: 13px;
+            }
         }
     }
 }

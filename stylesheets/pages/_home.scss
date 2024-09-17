@@ -47,7 +47,7 @@ main {
 .deera__introduce {
     // background: #F0E9E1;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     &-content {
         position: absolute;
@@ -147,7 +147,7 @@ main {
 
 .deera__newkol  {
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     &-custom {
         padding: 296px 8px 146px 8px;
@@ -489,7 +489,7 @@ main {
 .service {
     &__inner {
         background-size: cover;
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
     }
     &__box {
@@ -631,6 +631,6 @@ main {
 }
 .bg-custome-news {
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }

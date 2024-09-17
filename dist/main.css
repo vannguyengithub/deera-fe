@@ -695,7 +695,7 @@ main {
 
 .deera__introduce {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .deera__introduce-content {
@@ -787,7 +787,7 @@ main {
 
 .deera__newkol {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .deera__newkol-custom {
@@ -1117,7 +1117,7 @@ main {
 
 .service__inner {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .service__box {
@@ -1258,7 +1258,7 @@ main {
 
 .bg-custome-news {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -1629,11 +1629,60 @@ main {
   font-weight: 400;
 }
 
+.showmore {
+  position: relative;
+}
 .showmore .introKolKoc__content-btn {
   justify-content: center;
 }
 .showmore .introKolKoc__content-btn a {
   padding: 15px 20px;
+}
+
+.filter__kol-box {
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+}
+.filter__kol-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.filter__kol-label {
+  font-size: 16.8px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.filter__kol-btn {
+  width: 130px;
+}
+.filter__kol-btn a {
+  padding: 8px;
+  display: block;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 9999px;
+}
+.filter__kol-search {
+  border: 1px solid #000000;
+  border-radius: 99999px;
+}
+.filter__kol-search input {
+  display: block;
+  border: none;
+  outline: none;
+  background: #000000;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 9999px;
+  padding: 8px;
+}
+.filter__kol-search input::placeholder {
+  color: #fff;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=main.css.map */
