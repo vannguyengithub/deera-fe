@@ -46,3 +46,33 @@ const swiper = new Swiper('.deera__newkol-swiper', {
   //     prevEl: ".swiper-button-prev"
   //   }
   // });
+
+  const swiperServices = new Swiper('.our__service-swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 5,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  const swiperServiceExtend= new Swiper('.service-extend-swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 5,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  
