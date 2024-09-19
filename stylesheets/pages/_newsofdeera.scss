@@ -1,0 +1,278 @@
+$font-family: "Tangerine";
+
+.new_deera-banner {
+  height: 820px;
+    .deera__banner-img{
+    width: 584px;
+    height: 164px;
+    }
+    .deera__banner-text{
+    width: 630px;
+    color: #fff;
+    }
+}
+
+.new_deera .news__title{
+  padding: 118px 0 60px;
+}
+
+.new_deera {
+
+  &-content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.new_deera-content{
+  .mySwiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-wrapper{
+    // margin-bottom: 60px;
+  }
+
+  .slide-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 60px;
+    border: 1px solid #000;
+    border-radius: 80px;
+  }
+
+  .slide-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px;
+  }
+
+  .text-content-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #000;
+    border-radius: 80px;
+    padding: 0 0 22px 0;
+    p{
+      width: 40%;
+      font-size: 18px;
+      margin: unset;
+    }
+    h3{
+      font-size: 45px;
+      margin: unset;
+      font-family: $font-family;
+      font-weight: 500;
+    }
+  }
+
+  .text-content{
+    margin-top: 40px;
+    border-radius: 80px;
+  }
+
+  .swiper-button-next{
+    right: 0;
+    border-radius: 80px 0 0 80px;
+  }
+  .swiper-button-prev{
+    left: 0;
+    // border-bottom-right-radius: 80px ;
+    border-radius: 0 80px 80px 0;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: black;
+    width: 87px !important;
+    height: 70px !important;
+    background: black;
+    top: 32%;
+  }
+
+  .swiper-pagination{
+    .swiper-pagination-bullet{
+      width: 40px;
+      height: 4px;
+      border-radius: unset;
+      background: black;
+      opacity: unset;
+    }
+    .swiper-pagination-bullet-active{
+      background: #D0804A;
+    }
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 17% !important;
+  }
+
+  .slide-content-img{
+    height: 450px;
+  }
+}
+
+.new_deera-lastest{
+
+  .new_deera-content{
+    background-position: unset;
+  }
+
+  &-dflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 30px 8px 0;
+  }
+
+  &-left{
+    flex: 1;
+  }
+  &-left-text{
+    display: flex;
+    gap: 30px;
+  }
+  &-left-title{
+    font-size: 44px;
+    font-family: $font-family;
+  }
+  &-left-line{
+    display: block;
+    border-bottom: 1px solid #000;
+    flex: 1;
+  }
+  &-image{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+    &-left{
+      width: 40%;
+    }
+    &-center{
+      width: 30%;
+    }
+    &-right{
+      width: 30%;
+    }
+  }
+  &-image-center-img1{
+    padding-top: 16px;
+  }
+  &-image-img{
+    // width: max-content;
+    height: auto;
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 32px;
+  }
+  }
+
+
+  &-right{
+    width: 20%;
+    margin:  auto 0 0 0;
+  }
+
+  &-right-list{
+    text-align: left;
+    padding: unset;
+  }
+
+  &-right-item{
+    list-style: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  &-right-image{
+    &-img{
+      height: 165px;
+    }
+  }
+
+  &-right-image-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+
+
+  &-bottom{
+
+  }
+
+  &-bottom-text{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  &-bottom-title{
+    font-size: 44px;
+    font-family: $font-family;
+  }
+  &-bottom-line{
+    display: block;
+    border-bottom: 1px solid #000;
+    flex: 1;
+  }
+
+  &-bottom-left{
+    display: flex;
+    gap: 50px;
+    flex: 1;
+  }
+
+  &-bottom-left-width{
+    width: 50%;
+    img{
+      width: 100%;
+    }
+  }
+
+  &-bottom-dflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 8px 200px;
+  }
+
+  &-bottom-right{
+    &-title{
+      padding-bottom: 30px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    &-list{
+      margin: unset;
+      padding: unset;
+    }
+    &-img{
+      list-style: none;
+      &:not(:first-child) {
+        padding-top: 40px;
+      }
+    }
+  }
+}
