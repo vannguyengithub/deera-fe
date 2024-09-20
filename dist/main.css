@@ -2499,4 +2499,88 @@ main {
   padding: unset;
 }
 
+.news-item {
+  height: 820px;
+}
+.news-item .deera__banner-img {
+  width: 440px;
+  height: 123px;
+}
+.news-item-bg {
+  padding: 120px 8px 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.news-item-dflex {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.news-item-content {
+  flex: 1;
+  padding-top: 40px;
+}
+.news-item-headling {
+  font-size: 60px;
+  font-family: "Tangerine";
+}
+.news-item-date {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+.news-item-date-categories {
+  padding-left: 150px;
+}
+.news-item-subtitle {
+  padding-bottom: 40px;
+}
+.news-item-image {
+  width: 100%;
+  height: 300px;
+}
+.news-item-image img {
+  width: 100%;
+  height: 100%;
+}
+.news-item-text-list {
+  margin: unset;
+  padding: unset;
+}
+.news-item-text-list-item {
+  padding-top: 40px;
+  list-style: none;
+}
+.news-item-text-list-item p {
+  margin: unset;
+  margin-right: 80px;
+}
+.news-item-history {
+  width: 25%;
+}
+.news-item-history-headling {
+  font-size: 32px;
+}
+.news-item-history-list {
+  padding: unset;
+  margin: unset;
+}
+.news-item-history-item {
+  list-style: none;
+  margin: unset;
+  padding-top: 40px;
+}
+.news-item-history-item:not(:first-child) {
+  padding-top: 100px;
+}
+.news-item-history-item p {
+  margin: unset;
+}
+.news-item-history-title {
+  font-size: 32px;
+  padding: 10px 0 15px;
+}
+
 /*# sourceMappingURL=main.css.map */

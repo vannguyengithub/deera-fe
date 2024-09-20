@@ -1,0 +1,100 @@
+.news-item {
+  height: 820px;
+  .deera__banner-img{
+    width: 440px;
+    height: 123px;
+  }
+
+  &-bg {
+    padding: 120px 8px 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &-dflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  &-content{
+    flex: 1;
+    padding-top: 40px;
+  }
+
+  &-headling{
+    font-size: 60px;
+    font-family: "Tangerine";
+  }
+
+  &-date{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 18px;
+  }
+  &-date-time{
+
+  }
+  &-date-categories{
+    padding-left: 150px;
+  }
+
+  &-subtitle{
+    padding-bottom: 40px;
+  }
+
+  &-image{
+    width: 100%;
+    height: 300px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-text-list{
+    margin: unset;
+    padding: unset;
+  }
+  &-text-list-item{
+    padding-top: 40px;
+    list-style: none;
+    p{
+      margin: unset;
+      margin-right: 80px;
+    }
+  }
+
+  &-history{
+    width: 25%;
+
+    &-headling{
+      font-size: 32px;
+    }
+
+    &-list{
+      padding: unset;
+      margin: unset;
+    }
+
+    &-item{
+      list-style: none;
+      margin: unset;
+      padding-top: 40px;
+      &:not(:first-child) {
+        padding-top: 100px;
+      }
+      p{
+        margin: unset;
+      }
+    }
+
+    &-title{
+      font-size: 32px;
+      padding: 10px 0 15px;
+    }
+  }
+
+}
