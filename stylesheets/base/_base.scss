@@ -78,3 +78,26 @@ a {
       transform: translate(-100%)
   }
 }
+
+
+.brand-mobile {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .brand-mobile {
+      display: none;
+  }
+}
+
+.brand-desktop {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .brand-desktop {
+      display: block;
+  }
+}
