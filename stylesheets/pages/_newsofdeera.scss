@@ -1,10 +1,13 @@
 $font-family: "Tangerine";
 
 .new_deera-banner {
-  height: 820px;
+  // height: 820px;
     .deera__banner-img{
     width: 584px;
     height: 164px;
+    img {
+      object-fit: contain;
+    }
     }
     .deera__banner-text{
     width: 630px;
@@ -21,12 +24,25 @@ $font-family: "Tangerine";
   &-content{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
+  }
+}
+.swiper-custom-newdeera  {
+  position: relative;
+  .mySwiper {
+    overflow: hidden;
+  }
+  .swiper-button-next {
+    right: -67px;
+  }
+  .swiper-button-prev {
+    left: -67px;
   }
 }
 
 .new_deera-content{
+  padding-top: 60px;
   .mySwiper {
     width: 100%;
     height: 100%;
@@ -46,50 +62,66 @@ $font-family: "Tangerine";
     position: relative;
     width: 100%;
     height: 100%;
-    margin: 0 60px;
+    // margin: 0 60px;
     border: 1px solid #000;
-    border-radius: 80px;
+    border-radius: 40px;
   }
 
   .slide-content img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 80px;
+    border-radius: 39px;
   }
 
   .text-content-bg {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 50px;
     color: #000;
-    border-radius: 80px;
-    padding: 0 0 22px 0;
+    padding: 50px 50px 30px 170px;
+    max-width: 1000px;
+    margin: 0 auto;
     p{
-      width: 40%;
+      flex: 1;
+      font-family: "Gilroy";
       font-size: 18px;
       margin: unset;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
     }
     h3{
-      font-size: 45px;
+      width: 300px;
+      min-width: 300px;
+      font-size: 40px;
       margin: unset;
       font-family: $font-family;
       font-weight: 500;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
     }
   }
 
   .text-content{
-    margin-top: 40px;
-    border-radius: 80px;
+    // margin-top: 40px;
+    // border-radius: 80px;
   }
 
   .swiper-button-next{
-    right: 0;
+    // right: 0;
     border-radius: 80px 0 0 80px;
   }
   .swiper-button-prev{
-    left: 0;
+    // left: 0;
     // border-bottom-right-radius: 80px ;
     border-radius: 0 80px 80px 0;
   }
@@ -117,19 +149,21 @@ $font-family: "Tangerine";
   }
 
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 17% !important;
+    bottom: 111px !important;
   }
 
   .slide-content-img{
-    height: 450px;
+    display: block;
+    height: 314px;
+    width: 100%;
   }
 }
 
-.new_deera-lastest{
+.new_deera-lastest-image-img {
+  display: block;
+}
 
-  .new_deera-content{
-    background-position: unset;
-  }
+.new_deera-lastest{
 
   &-dflex{
     display: flex;
@@ -187,19 +221,23 @@ $font-family: "Tangerine";
 
   &-right{
     width: 20%;
-    margin:  auto 0 0 0;
+    // margin:  auto 0 0 0;
+    padding-top: 65px;
   }
 
   &-right-list{
     text-align: left;
-    padding: unset;
+    padding: 0;
+    margin: 0;
   }
 
   &-right-item{
+    font-family: "Gilroy";
     list-style: none;
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding: 4px 0 12px 0;
+    cursor: pointer;
     &:not(:last-child) {
       border-bottom: 1px solid #000;
     }
@@ -215,11 +253,6 @@ $font-family: "Tangerine";
     width: 100%;
     height: 100%;
     border-radius: 24px;
-  }
-
-
-  &-bottom{
-
   }
 
   &-bottom-text{
@@ -253,7 +286,7 @@ $font-family: "Tangerine";
   &-bottom-dflex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
     padding: 80px 8px 200px;
   }
@@ -271,8 +304,43 @@ $font-family: "Tangerine";
     &-img{
       list-style: none;
       &:not(:first-child) {
-        padding-top: 40px;
+        padding-top: 37px;
       }
     }
+  }
+}
+.category__boximg {
+  display: block;
+  height: 452px;
+  overflow: hidden;
+  border-radius: 35px;
+}
+.new_deera-lastest-bottom-right {
+  width: 286px;
+  min-width: 286px;
+  padding-top: 31px;
+}
+
+.title__caetgory-filter {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 8px;
+}
+.new_deera-lastest-bottom-right-img {
+  width: 100%;
+  a {
+    display: block;
+    width: 100%;
+    height: 124.53px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }

@@ -1,8 +1,11 @@
 .fequently-questions {
-  height: 820px;
+  // height: 820px;
   .deera__banner-img{
-    width: 1051px;
-    height: 278px;
+    // width: 1051px;
+    // height: 278px;
+    img {
+      object-fit: contain;
+    }
   }
   .deera__banner-text{
     width: 430px;

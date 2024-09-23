@@ -37,7 +37,7 @@ const swiper = new Swiper('.deera__newkol-swiper', {
       prevEl: ".swiper-button-prev",
     },
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 10,
   });
 
 
