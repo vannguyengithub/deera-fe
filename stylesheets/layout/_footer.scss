@@ -5,10 +5,21 @@ footer {
     background: #000000;
 }
 .deera__footer {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 24px;
     padding: 44px 8px;
+    &-left {
+        width: 300px;
+    }
+    &-right {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+        row-gap: 35px;
+    }
     &-logo {
         width: 189px;
         height: 63.8px;
@@ -54,6 +65,7 @@ footer {
         color: #F0E9E1;
         text-transform: uppercase;
         margin-bottom: 30px;
+        font-weight: 700;
     }
     &-link {
         list-style: none;
@@ -61,12 +73,13 @@ footer {
         margin: 0;
         li {
             &:not(:last-child) {
-                margin-bottom: 30px;
+                margin-bottom: 25px;
             }
             a {
                 display: block;
                 font-size: 14px;
                 color: #F0E9E1;
+                font-weight: 300;
             }
             &:hover {
                 position: relative;
