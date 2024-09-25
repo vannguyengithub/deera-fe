@@ -1,14 +1,16 @@
 
 // tablet
 @media (min-width: 481px) and (max-width: 1024px) {
-    .deera__banner-img {
-        width: 400px;
-        height: auto;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(174deg) brightness(104%) contrast(104%);
+    .bannerhome {
+        .deera__banner-img {
+            width: 400px;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(174deg) brightness(104%) contrast(104%);
+            }
         }
     }
     .deera__banner-text {
@@ -326,14 +328,16 @@
 
 // mobile
 @media (max-width: 480px) {
-    .deera__banner-img {
-        width: 300px;
-        height: auto;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(174deg) brightness(104%) contrast(104%);
+    .bannerhome {
+        .deera__banner-img {
+            width: 300px;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(174deg) brightness(104%) contrast(104%);
+            }
         }
     }
     .deera__banner-text {

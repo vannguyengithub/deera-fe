@@ -709,6 +709,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 20px;
 }
 
 .deera__banner-img {
@@ -1433,7 +1434,43 @@ main {
 }
 
 .banner-detail-kol .deera__banner-img {
-  width: 1096.88px;
+  width: 100%;
+}
+.banner-detail-kol .deera__banner-img img {
+  object-fit: contain;
+}
+
+.border-imgleft {
+  position: absolute;
+  border: 1px solid;
+  top: 29px;
+  left: 23px;
+  right: -16px;
+  bottom: -20px;
+  z-index: 1;
+  border-radius: 13px 199px 23px 258px;
+}
+
+.border-imgleft-iconstar {
+  position: absolute;
+  bottom: -35px;
+  right: 26px;
+}
+.border-imgleft-iconstar img {
+  width: 23px !important;
+  height: 23px !important;
+  object-fit: contain !important;
+}
+
+.border-imgRight {
+  border: 1px solid;
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  right: 0;
+  bottom: 16px;
+  border-radius: 20px;
+  z-index: 0;
 }
 
 .kols__detail {
@@ -1455,20 +1492,29 @@ main {
   flex: 1;
 }
 .kols__detail-imgLeft {
+  position: relative;
   width: 100%;
   height: 405px;
+  border-radius: 50px 199px 13px 258px;
 }
 .kols__detail-imgLeft img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 13px 199px 13px 258px;
 }
 .kols__detail-imgRight {
+  position: relative;
   width: 100%;
   height: 180.43px;
 }
 .kols__detail-imgRight img {
+  position: relative;
   width: 100%;
   height: 100%;
+  border-radius: 20px;
+  z-index: 1;
+  object-fit: cover;
 }
 .kols__detail-imgMain {
   position: relative;
@@ -2902,11 +2948,11 @@ main {
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
-  .deera__banner-img {
+  .bannerhome .deera__banner-img {
     width: 400px;
     height: auto;
   }
-  .deera__banner-img img {
+  .bannerhome .deera__banner-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -3183,11 +3229,11 @@ main {
   }
 }
 @media (max-width: 480px) {
-  .deera__banner-img {
+  .bannerhome .deera__banner-img {
     width: 300px;
     height: auto;
   }
-  .deera__banner-img img {
+  .bannerhome .deera__banner-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -3456,6 +3502,224 @@ main {
     right: -32px;
     border: unset;
     background: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .banner-detail-kol .deera__banner-img img {
+    filter: unset;
+  }
+  .kols__detail-box {
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .kols__detail-left {
+    width: 25%;
+  }
+  .kols__detail-right {
+    width: 25%;
+  }
+  .kols__detail-imgLeft {
+    height: 200px;
+  }
+  .kols__detail-imgLeft img {
+    border-radius: 10px 90px 10px 90px;
+  }
+  .border-imgleft {
+    border-radius: 10px 90px 10px 90px;
+    top: 12px;
+    left: 12px;
+    right: -12px;
+    bottom: -12px;
+  }
+  .kols__detail-imgRight {
+    width: 100%;
+    height: 98px;
+  }
+  .kols__detail-imgRight img {
+    border-radius: 10px;
+  }
+  .border-imgRight {
+    border-radius: 10px;
+    top: -12px;
+    left: -12px;
+    right: 0;
+    bottom: 6px;
+  }
+  .border-imgleft-iconstar {
+    bottom: -25px;
+    right: -2px;
+  }
+  .border-imgleft-iconstar img {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .kols__detail-imgMain {
+    width: 100%;
+    height: 490px;
+    padding: 20px 16px;
+  }
+  .kols__detail-imgMain img {
+    width: 100%;
+    height: 450px;
+  }
+  .kols__detail-star {
+    top: -10px;
+  }
+  .kols__detail-star img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .information__box {
+    margin: 40px 16px 30px 16px;
+  }
+  .information__nickname .common__title {
+    font-size: 38px;
+  }
+  .information__name {
+    font-size: 18px;
+  }
+  .information__namesub {
+    font-size: 14px;
+  }
+  .information__social {
+    gap: 14px;
+  }
+  .information__social-inner {
+    max-width: 500px;
+    padding: 0px 16px 40px 16px;
+  }
+  .information__social-icon img {
+    width: 18px;
+    height: 18px;
+  }
+  .information__social-name {
+    font-size: 14px;
+  }
+  .information__social-total {
+    font-size: 24px;
+  }
+  .information__social-desctext {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+  .btn-follow a {
+    font-size: 18px;
+    border-radius: 16px;
+    gap: 8px;
+    padding: 8px 18px;
+  }
+  .btn-follow a img {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .banner-detail-kol .deera__banner-img img {
+    filter: unset;
+  }
+  .kols__detail-box {
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .kols__detail-left {
+    width: 78px;
+  }
+  .kols__detail-center {
+    flex: unset;
+  }
+  .kols__detail-right {
+    width: 78px;
+  }
+  .kols__detail-imgLeft {
+    height: 113px;
+  }
+  .kols__detail-imgLeft img {
+    border-radius: 10px 40px 10px 40px;
+  }
+  .border-imgleft {
+    border-radius: 10px 40px 10px 40px;
+    top: 6px;
+    left: 6px;
+    right: -6px;
+    bottom: -6px;
+  }
+  .kols__detail-imgRight {
+    width: 100%;
+    height: 57px;
+  }
+  .kols__detail-imgRight img {
+    border-radius: 10px;
+  }
+  .border-imgRight {
+    border-radius: 10px;
+    top: -6px;
+    left: -6px;
+    right: 0;
+    bottom: 6px;
+  }
+  .border-imgleft-iconstar {
+    bottom: -17px;
+    right: 5px;
+  }
+  .border-imgleft-iconstar img {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .kols__detail-imgMain {
+    width: 168px;
+    height: 245px;
+    padding: 12px 8px;
+  }
+  .kols__detail-imgMain img {
+    width: 150px;
+    height: 220px;
+  }
+  .kols__detail-star img {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .information__box {
+    margin: 40px 16px 30px 16px;
+  }
+  .information__nickname .common__title {
+    font-size: 38px;
+  }
+  .information__name {
+    font-size: 18px;
+  }
+  .information__namesub {
+    font-size: 14px;
+  }
+  .information__social {
+    gap: 14px;
+  }
+  .information__social-inner {
+    max-width: 300px;
+    padding: 0px 16px 40px 16px;
+  }
+  .information__social-icon img {
+    width: 18px;
+    height: 18px;
+  }
+  .information__social-name {
+    font-size: 14px;
+  }
+  .information__social-total {
+    font-size: 24px;
+  }
+  .information__social-desctext {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+  .btn-follow a {
+    font-size: 18px;
+    border-radius: 16px;
+    gap: 8px;
+    padding: 8px 18px;
+  }
+  .btn-follow a img {
+    width: 18px;
+    height: 18px;
   }
 }
 
