@@ -70,12 +70,6 @@
             width: 100%;
             grid-template-columns: repeat(2, minmax(0, 1fr))
         }
-        &-logo {
-            margin: 0 auto;
-        }
-        &-sub {
-            text-align: center;
-        }
         &-social {
             position: absolute;
             bottom: 16px;
