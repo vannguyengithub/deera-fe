@@ -3,6 +3,7 @@
 @media (min-width: 481px) and (max-width: 1024px) {
     // header
     header {
+        // overflow: hidden;
         background: #000000;
     }
    .header {
@@ -21,7 +22,7 @@
         &__right {
             // display: none;
             min-width: 131px;
-            position: absolute;
+            position: fixed;
             right: -100%;
             top: 67px;
             background: #000000;
@@ -94,6 +95,7 @@
 @media (max-width: 480px) {
     // header
     header {
+        // overflow: hidden;
         background: #000000;
     }
    .header {
@@ -112,7 +114,7 @@
         &__right {
             // display: none;
             min-width: 131px;
-            position: absolute;
+            position: fixed;
             right: -100%;
             top: 67px;
             background: #000000;

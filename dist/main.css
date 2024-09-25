@@ -2801,7 +2801,7 @@ main {
   }
   .header__right {
     min-width: 131px;
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 67px;
     background: #000000;
@@ -2883,7 +2883,7 @@ main {
   }
   .header__right {
     min-width: 131px;
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 67px;
     background: #000000;
@@ -3619,16 +3619,16 @@ main {
   }
   .kols__detail-box {
     justify-content: space-between;
-    gap: 12px;
+    gap: 6px;
   }
   .kols__detail-left {
-    width: 78px;
+    width: 80px;
   }
   .kols__detail-center {
     flex: unset;
   }
   .kols__detail-right {
-    width: 78px;
+    width: 80px;
   }
   .kols__detail-imgLeft {
     height: 113px;
