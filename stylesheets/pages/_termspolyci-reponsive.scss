@@ -3,7 +3,6 @@
 
 @media (max-width: 480px) {
   .termspolyci-banner {
-    height: 750px;
      .deera__banner-img{
       width: auto;
       height: auto;
@@ -16,7 +15,8 @@
       width: auto;
       color: #fff;
       font-size: 16px;
-      margin: 15px 16px 0;
+      margin: 16px 0 0;
+      padding: unset;
      }
   }
 
@@ -40,7 +40,7 @@
     }
 
     &-title{
-      padding: 20px 0;
+      padding: 12px 0;
       background: #000;
       border-top-left-radius: 24px;
       border-top-right-radius: 24px;
@@ -55,6 +55,7 @@
     &-accept{
       max-width: 355px;
       padding-bottom: 40px;
+      margin: 0 16px;
     }
 
     &-btn{
@@ -62,7 +63,7 @@
       height: 100%;
       background: #FF8939;
       color: #fff;
-      font-size: 36px;
+      font-size: 24px;
       padding: 6px 0 7px;
       border-radius: 16px;
       border: 1px solid #000;
@@ -123,7 +124,6 @@
 // tablet
 @media (min-width: 481px) and (max-width: 1024px) {
   .termspolyci-banner {
-    height: 820px;
      .deera__banner-img{
       width: auto;
       height: auto;
@@ -146,16 +146,48 @@
       height: 100%;
     }
 
+    &-title{
+      padding: 30px 0;
+      background: #000;
+      border-top-left-radius: 24px;
+      border-top-right-radius: 24px;
+      text-align: center;
+      font-family: 'Tangerine';
+      span{
+        font-size: 32px;
+        color: #fff;
+      }
+    }
+
     &-accept{
       max-width: 355px;
       margin: 30px auto 40px;
       padding-bottom: unset;
     }
 
+    &-btn{
+      font-size: 32px;
+      padding: 22px 0;
+    }
+
     &-note{
       padding: 80px 0 0 0;
       &-list{
         margin-right: 16px;
+      }
+
+      &-title{
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+        font-family: 'Tangerine';
+      }
+
+      &-subtitle{
+        font-size: 18px;
+        padding-right: unset;
+        line-height: 35px;
       }
     }
   }

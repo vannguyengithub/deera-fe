@@ -30,14 +30,21 @@ $font-family: "Tangerine";
 }
 .swiper-custom-newdeera  {
   position: relative;
+  @media (min-width: 1025px) and (max-width: 1400px) {
+    margin: 0 16px;
+  }
   .mySwiper {
     overflow: hidden;
   }
   .swiper-button-next {
-    right: -67px;
+    right: -4%;
+    @media (min-width: 1025px) and (max-width: 1400px) {
+    }
   }
   .swiper-button-prev {
-    left: -67px;
+    left: -3%;
+    @media (min-width: 1025px) and (max-width: 1400px) {
+    }
   }
 }
 
@@ -133,6 +140,10 @@ $font-family: "Tangerine";
     height: 70px !important;
     background: black;
     top: 32%;
+
+    @media (min-width: 1025px) and (max-width: 1400px) {
+    }
+
   }
 
   .swiper-pagination{
