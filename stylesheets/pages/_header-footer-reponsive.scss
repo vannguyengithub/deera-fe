@@ -1,0 +1,190 @@
+
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+    // header
+    header {
+        // overflow: hidden;
+        background: #000000;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        border-bottom: 1px solid #000000;
+    }
+   .header {
+       &__main {
+            padding: 20px 16px;
+            position: relative;
+        }
+        &__logo {
+            width: 120px;
+            height: 50px;
+            filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(95deg) brightness(105%) contrast(100%);
+            img {
+                object-fit: contain;
+            }
+        }
+        &__right {
+            // display: none;
+            min-width: 131px;
+            position: fixed;
+            right: -100%;
+            top: 67px;
+            background: #000000;
+            border-radius: 0 0 24px 6px;
+            transition: .2s ease;
+            z-index: 9;
+            opacity: 0;
+            &.active {
+                display: block;
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
+    .menu__list {
+        display: block;
+        width: 100%;
+        a {
+            color: #fff;
+            font-size: 16px;
+            padding: 14px;
+            border-radius: 0;
+            text-align: right;
+        }
+    }
+    .menu__bars {
+        cursor: pointer;
+        img {
+            display: block;
+            width: 28px;
+            height: 26px;
+            object-fit: contain;
+        }
+    }
+
+    // footer
+    .deera__footer {
+        position: relative;
+        flex-wrap: wrap;
+        padding: 40px 16px 68px 16px;
+        &-left {
+            width: 100%;
+        }
+        &-right {
+            width: 100%;
+            grid-template-columns: repeat(2, minmax(0, 1fr))
+        }
+        &-social {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+        }
+
+        &-title {
+            margin-bottom: 25px;
+        }
+    }
+    .deera__footer-link li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+// mobile
+@media (max-width: 480px) {
+    // header
+    header {
+        // overflow: hidden;
+        background: #000000;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        border-bottom: 1px solid #000000;
+    }
+   .header {
+       &__main {
+            padding: 20px 16px;
+            position: relative;
+        }
+        &__logo {
+            width: 90px;
+            height: 30px;
+            filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(95deg) brightness(105%) contrast(100%);
+            img {
+                object-fit: contain;
+            }
+        }
+        &__right {
+            // display: none;
+            min-width: 131px;
+            position: fixed;
+            right: -100%;
+            top: 67px;
+            background: #000000;
+            border-radius: 0 0 24px 6px;
+            transition: .2s ease;
+            z-index: 9;
+            opacity: 0;
+            &.active {
+                display: block;
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
+    .menu__list {
+        display: block;
+        width: 100%;
+        a {
+            color: #fff;
+            font-size: 16px;
+            padding: 14px;
+            border-radius: 0;
+            text-align: right;
+        }
+    }
+    .menu__bars {
+        cursor: pointer;
+        img {
+            display: block;
+            width: 28px;
+            height: 26px;
+            object-fit: contain;
+        }
+    }
+
+    // footer
+    .deera__footer {
+        position: relative;
+        flex-wrap: wrap;
+        padding: 40px 16px 68px 16px;
+        &-left {
+            width: 100%;
+        }
+        &-right {
+            width: 100%;
+            grid-template-columns: repeat(2, minmax(0, 1fr))
+        }
+        &-logo {
+            margin: 0 auto;
+        }
+        &-sub {
+            text-align: center;
+        }
+        &-social {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+        }
+
+        &-title {
+            margin-bottom: 25px;
+        }
+    }
+    .deera__footer-link li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}

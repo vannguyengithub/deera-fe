@@ -21,6 +21,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding: 20px;
     // max-width: 637px;
     // margin: 0 auto;
 }
@@ -167,6 +168,7 @@ main {
     &-swiper {
         // position: relative;
         overflow: hidden;
+        padding: 30px 20px;
     }
     &-slide {
         a {
@@ -186,7 +188,7 @@ main {
         font-size: 132.6px;
         line-height: 100%;
         position: absolute;
-        top: -150px;
+        top: -168px;
         z-index: 1;
         width: 600px;
     }
@@ -200,7 +202,7 @@ main {
     position: relative;
 }
 .deera__newkol-swiper {
-    padding-right: 50px;
+    // padding-right: 50px;
     .swiper-button-prev {
         top: 39%;
         right: 423px;
@@ -212,11 +214,13 @@ main {
         left: -65px;
         transform: rotate(180deg);
     }
-    .swiper-slide-next {
-        padding-top: 56px;
-    }
+    // .swiper-slide-next {
+    //     padding-top: 56px;
+    // }
     .swiper-slide {
+        padding-top: 65px;
         &.swiper-slide-active {
+            padding-top: 0;
             img {
                 height: 645px;
             }
@@ -230,8 +234,8 @@ main {
             width: 100%;
             object-fit: cover;
             border-radius: 250px;
-            padding: 35px 24px;
-            border: 1px solid #000000;
+            // padding: 35px 24px;
+            // border: 1px solid #000000;
         }
         a {
             display: block;
@@ -268,6 +272,38 @@ main {
             position: absolute;
             bottom: 22px;
             right: -12px;
+        }
+    }
+
+    .deera__newkol-slide {
+        a {
+            position: relative;
+            &::before {
+                    content: "";
+                    position: absolute;
+                    border: 1px solid #000000;
+                    border-radius: 250px;
+                    top: -28px;
+                    left: -20px;
+                    right: -20px;
+                    bottom: -28px;
+            }
+        }
+    }
+    .swiper-slide-active {
+        .deera__newkol-slide {
+            a {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    border: 1px solid #000000;
+                    border-radius: 250px;
+                    top: -28px;
+                    left: -20px;
+                    right: -20px;
+                    bottom: -28px;
+                }
+            }
         }
     }
 }
@@ -621,6 +657,8 @@ main {
         position: absolute;
         top: 38px;
         left: 38px;
+        right: 38px;
+        bottom: 38px;
         z-index: 1;
         text-transform: uppercase;
         font-size: 43px;

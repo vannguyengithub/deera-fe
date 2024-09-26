@@ -1,0 +1,257 @@
+
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+    .banner-detail-kol {
+        .deera__banner-img img {
+            filter: unset;
+        }
+    }
+    .kols__detail {
+        &-box {
+            justify-content: space-between;
+            gap: 30px;
+            // flex-wrap: wrap;
+        }
+        &-left {
+            // width: 100%;
+            // width: 180px;
+            width: 25%;
+
+        }
+        &-center {
+            // width: 100%;
+        }
+        &-right {
+            // width: 100%;
+            width: 25%;
+
+        }
+        &-imgLeft {
+            // width: 70px;
+            height: 200px;
+            img {
+                border-radius: 10px 90px 10px 90px;
+            }
+        }
+    }
+    .border-imgleft {
+        border-radius: 10px 90px 10px 90px;
+        top: 12px;
+        left: 12px;
+        right: -12px;
+        bottom: -12px;
+    }
+    
+    .kols__detail-imgRight {
+        width: 100%;
+        height: 98px;
+        img {
+            border-radius: 10px;
+        }
+    }
+    .border-imgRight {
+        border-radius: 10px;
+        top: -12px;
+        left: -12px;
+        right: 0;
+        bottom: 6px;
+    }
+    .border-imgleft-iconstar {
+        bottom: -25px;
+        right: -2px;
+        img {
+            width: 14px !important;
+            height: 14px !important;
+        }
+    }
+    .kols__detail-imgMain {
+        width: 100%;
+        height: 490px;
+        padding: 20px 16px;
+        img {
+            width: 100%;
+            height: 450px;
+        }
+    }
+    .kols__detail-star {
+        top: -10px;
+        img {
+            width: 18px !important;
+            height: 18px !important;
+        }
+            
+    }
+    .information__box {
+        margin: 40px 16px 30px 16px;
+    }
+    .information__nickname .common__title {
+        font-size: 38px;
+    }
+    .information__name {
+        font-size: 18px;
+    }
+    .information__namesub {
+        font-size: 14px;
+    }
+    .information__social {
+        gap: 14px;
+        &-inner {
+            max-width: 500px;
+            padding: 0px 16px 40px 16px;
+        }
+        &-icon img {
+            width: 18px;
+            height: 18px;
+        }
+        &-name {
+            font-size: 14px;
+        }
+        &-total {
+            font-size: 24px;
+        }
+        &-desctext {
+            font-size: 14px;
+            margin-top: 24px;
+        }
+    }
+    .btn-follow {
+        a {
+            font-size: 18px;
+            border-radius: 16px;
+            gap: 8px;
+            padding: 8px 18px;
+            img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}
+
+// mobile
+@media (max-width: 480px) {
+    .banner-detail-kol {
+        .deera__banner-img img {
+            filter: unset;
+        }
+    }
+    .kols__detail {
+        &-box {
+            justify-content: space-between;
+            gap: 6px;
+            // flex-wrap: wrap;
+        }
+        &-left {
+            // width: 100%;
+            width: 80px;
+        }
+        &-center {
+            // width: 100%;
+            flex: unset;
+        }
+        &-right {
+            // width: 100%;
+            width: 80px;
+
+        }
+        &-imgLeft {
+            // width: 70px;
+            height: 113px;
+            img {
+                border-radius: 10px 40px 10px 40px;
+            }
+        }
+    }
+    .border-imgleft {
+        border-radius: 10px 40px 10px 40px;
+        top: 6px;
+        left: 6px;
+        right: -6px;
+        bottom: -6px;
+    }
+    
+    .kols__detail-imgRight {
+        width: 100%;
+        height: 57px;
+        img {
+            
+            border-radius: 10px;
+        }
+    }
+    .border-imgRight {
+        border-radius: 10px;
+        top: -6px;
+        left: -6px;
+        right: 0;
+        bottom: 6px;
+    }
+    .border-imgleft-iconstar {
+        bottom: -17px;
+        right: 5px;
+        img {
+            width: 10px !important;
+            height: 10px !important;
+        }
+    }
+    .kols__detail-imgMain {
+        width: 168px;
+        height: 245px;
+        padding: 12px 8px;
+        img {
+            width: 150px;
+            height: 220px;
+        }
+    }
+    .kols__detail-star {
+        img {
+            width: 12px !important;
+            height: 12px !important;
+        }
+            
+    }
+    .information__box {
+        margin: 40px 16px 30px 16px;
+    }
+    .information__nickname .common__title {
+        font-size: 38px;
+    }
+    .information__name {
+        font-size: 18px;
+    }
+    .information__namesub {
+        font-size: 14px;
+    }
+    .information__social {
+        gap: 14px;
+        &-inner {
+            max-width: 300px;
+            padding: 0px 16px 40px 16px;
+        }
+        &-icon img {
+            width: 18px;
+            height: 18px;
+        }
+        &-name {
+            font-size: 14px;
+        }
+        &-total {
+            font-size: 24px;
+        }
+        &-desctext {
+            font-size: 14px;
+            margin-top: 24px;
+        }
+    }
+    .btn-follow {
+        a {
+            font-size: 18px;
+            border-radius: 16px;
+            gap: 8px;
+            padding: 8px 18px;
+            img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}

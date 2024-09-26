@@ -1,7 +1,7 @@
 const swiper = new Swiper('.deera__newkol-swiper', {
     loop: true,
-    slidesPerView: 2,
-    spaceBetween: 100,
+    // slidesPerView: 2,
+    // spaceBetween: 100,
     pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
@@ -15,6 +15,26 @@ const swiper = new Swiper('.deera__newkol-swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      // when window width is >= 0px and < 480px (mobile)
+      0: {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        centeredSlides: true,
+
+      },
+      // when window width is >= 480px and < 1024px (tablet)
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+        centeredSlides: true,
+      },
+      // when window width is >= 1024px (PC)
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 120,
+      },
+    }
   });
 
   const swiperNews = new Swiper('.news__swiper', {
@@ -89,4 +109,21 @@ const swiper = new Swiper('.deera__newkol-swiper', {
     },
   });
 
+
+  const swiperClinets = new Swiper('.clinets__swiper', {
+    loop: true,
+    slidesPerView: 3,
+    grid: {
+      rows: 2,
+    },
+    slidesPerGroup : 3,
+    spaceBetween: 12,
+   
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  
   
