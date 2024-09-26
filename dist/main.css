@@ -1834,13 +1834,14 @@ main {
 }
 .new_deera-lastest-image-img {
   height: auto;
+  border-radius: 32px;
+  overflow: hidden;
 }
 .new_deera-lastest-image-img img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 32px;
 }
 .new_deera-lastest-right {
   width: 20%;
@@ -1862,8 +1863,20 @@ main {
 .new_deera-lastest-right-item:not(:last-child) {
   border-bottom: 1px solid #000;
 }
+.new_deera-lastest-right-image {
+  margin: 34px auto 0;
+}
 .new_deera-lastest-right-image-img {
-  height: 165px;
+  display: inline-block;
+  width: 100%;
+  height: 185px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.new_deera-lastest-right-image-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .new_deera-lastest-right-image-img img {
   width: 100%;
@@ -1894,6 +1907,8 @@ main {
 }
 .new_deera-lastest-bottom-left-width img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .new_deera-lastest-bottom-dflex {
   display: flex;
@@ -3255,6 +3270,16 @@ main {
     gap: 8px;
     padding-top: 15px;
   }
+  .new_deera-lastest-bottom-right .min-height {
+    height: 150px;
+  }
+  .new_deera-lastest-bottom-right .min-height img {
+    object-fit: unset;
+  }
+  .new_deera-lastest-bottom-right-img {
+    border-radius: 16px;
+    overflow: hidden;
+  }
   .new_deera-lastest-bottom-right-img:not(:first-child) {
     padding-top: 8px;
   }
@@ -3282,14 +3307,15 @@ main {
   }
   .new_deera-lastestmb-item {
     display: flex;
+    align-items: center;
     gap: 10px;
     padding-top: 24px;
   }
   .new_deera-lastestmb-img {
-    width: 35%;
-    min-height: 72px;
+    width: 30%;
     border-radius: 16px;
     overflow: hidden;
+    aspect-ratio: 4/3;
   }
   .new_deera-lastestmb-img img {
     width: 100%;
@@ -3302,10 +3328,22 @@ main {
   .new_deera-lastestmb-headling {
     font-size: 16px;
     font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .new_deera-lastestmb-subtitle {
     font-size: 16px;
     font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .new_deera-lastestmb-show {
     padding-top: 30px;
@@ -3351,7 +3389,8 @@ main {
     width: auto;
     color: #fff;
     font-size: 18px;
-    margin: 0 16px;
+    margin: 16px 16px 0;
+    padding: unset;
   }
   .new_deera .news__title {
     padding: 30px 16px;
@@ -3428,11 +3467,21 @@ main {
     padding: unset;
     font-size: 32px;
   }
+  .new_deera-lastest-bottom-right .min-height {
+    height: 250px;
+  }
+  .new_deera-lastest-bottom-right .min-height img {
+    object-fit: unset;
+  }
   .new_deera-lastest-bottom-right-dflex {
     display: flex;
     align-items: center;
     gap: 16px;
     padding-top: 15px;
+  }
+  .new_deera-lastest-bottom-right-img {
+    border-radius: 24px;
+    overflow: hidden;
   }
   .new_deera-lastest-bottom-right-img:not(:first-child) {
     padding-top: 16px;
@@ -3462,14 +3511,15 @@ main {
   }
   .new_deera-lastestmb-item {
     display: flex;
+    align-items: center;
     gap: 16px;
     padding-top: 30px;
   }
   .new_deera-lastestmb-img {
-    width: 35%;
-    min-height: 72px;
+    width: 30%;
     border-radius: 16px;
     overflow: hidden;
+    aspect-ratio: 4/3;
   }
   .new_deera-lastestmb-img img {
     width: 100%;
@@ -3482,9 +3532,21 @@ main {
   .new_deera-lastestmb-headling {
     font-size: 22px;
     font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .new_deera-lastestmb-subtitle {
     font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .new_deera-lastestmb-show {
     padding-top: 50px;

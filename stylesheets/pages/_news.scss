@@ -220,13 +220,14 @@ $font-family: "Tangerine";
   &-image-img{
     // width: max-content;
     height: auto;
+    border-radius: 32px;
+    overflow: hidden;
     img{
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 32px;
-  }
+    }
   }
 
 
@@ -255,8 +256,18 @@ $font-family: "Tangerine";
   }
 
   &-right-image{
+    margin: 34px auto 0;
     &-img{
-      height: 165px;
+      display: inline-block;
+      width: 100%;
+      height: 185px;
+      border-radius: 16px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
 
@@ -291,6 +302,8 @@ $font-family: "Tangerine";
     width: 50%;
     img{
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
