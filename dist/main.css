@@ -3605,6 +3605,186 @@ main {
     text-decoration: underline;
   }
 }
+.banner-project .deera__banner-img img {
+  object-fit: contain;
+}
+.banner-project .deera__banner-text {
+  color: #fff;
+}
+
+.project-line {
+  max-width: 886px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+
+.max-w-project__special {
+  max-width: 1000px;
+}
+
+.project__special {
+  padding: 80px 8px 50px 8px;
+}
+.project__special-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 40px;
+}
+.project__special-img {
+  width: 384px;
+  min-width: 384px;
+  height: 384px;
+}
+.project__special-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.project__special-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.project__special-content {
+  padding-top: 35px;
+}
+.project__special-name {
+  font-family: "Gilroy";
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.project__special-name a {
+  display: block;
+  color: #000000;
+}
+.project__special-desc {
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-weight: 400;
+}
+.project__special-desc a {
+  display: block;
+  color: #000000;
+}
+
+.project__deera-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 50px 50px 50px 50px;
+}
+.project__deera-left {
+  width: 45%;
+  min-width: 389px;
+  height: 404px;
+}
+.project__deera-img {
+  width: 100%;
+  height: 100%;
+}
+.project__deera-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.project__deera-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.project__deera-right {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.project__deera-item {
+  height: 320px;
+}
+.project__deera-item:nth-child(1) {
+  width: 60%;
+}
+.project__deera-item:nth-child(2) {
+  width: 40%;
+}
+.project__deera__item-img {
+  width: 100%;
+  height: 100%;
+}
+.project__deera__item-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.project__deera__item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.project__deera-title {
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.project__deera-title a {
+  display: block;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.project__images {
+  padding: 50px 8px;
+}
+.project__images-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 30px;
+}
+.project__images-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.project__images-item a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.project__images-item:nth-child(1) {
+  width: 217px;
+  height: 225px;
+}
+.project__images-item:nth-child(2) {
+  width: 168px;
+  height: 225px;
+  margin-bottom: 90px;
+}
+.project__images-item:nth-child(3) {
+  width: 270px;
+  height: 281px;
+  margin-bottom: 35px;
+}
+.project__images-item:nth-child(4) {
+  width: 217px;
+  height: 225px;
+}
+
 @media (min-width: 481px) and (max-width: 1024px) {
   header {
     background: #000000;
@@ -4794,7 +4974,7 @@ main {
     position: absolute;
     bottom: -23px;
     width: 300px;
-    left: -64px;
+    left: -61px;
     height: 146px;
     border-bottom: 1px dashed #000000;
     border-radius: 0 0 500px 500px;
@@ -5068,7 +5248,7 @@ main {
     position: absolute;
     bottom: -23px;
     width: 300px;
-    left: -64px;
+    left: -61px;
     height: 146px;
     border-bottom: 1px dashed #000000;
     border-radius: 0 0 500px 500px;
@@ -5361,6 +5541,182 @@ main {
   .filter__kol-btn a {
     border-radius: 6px;
     font-size: 12px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .banner-project .deera__banner-img {
+    width: 100%;
+    height: 100%;
+  }
+  .project__special {
+    padding: 60px 16px 50px 16px;
+  }
+  .project__special-box {
+    gap: 24px;
+    padding-bottom: 0;
+  }
+  .project__special-img {
+    width: 45%;
+    min-width: 45%;
+    height: 230px;
+  }
+  .project__special-img img {
+    border-radius: 10px;
+  }
+  .project__special-content {
+    padding-top: 0;
+  }
+  .project__special-name {
+    font-size: 20px;
+  }
+  .project__special-name a {
+    display: block;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .project__special-desc {
+    font-size: 16px;
+  }
+  .project__special-desc a {
+    display: block;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .project-line {
+    max-width: 100%;
+  }
+  .project__deera-list {
+    padding: 40px 16px 40px 16px;
+    gap: 8px;
+  }
+  .project__deera-left {
+    height: 327px;
+  }
+  .project__deera-left img {
+    border-radius: 20px;
+  }
+  .project__deera-right {
+    gap: 8px;
+    align-items: flex-end;
+  }
+  .project__deera-item {
+    height: 250px;
+  }
+  .project__images {
+    padding: 40px 16px;
+  }
+  .project__images-box {
+    gap: 8px;
+  }
+  .project__images-item a img {
+    border-radius: 0;
+  }
+}
+@media (max-width: 480px) {
+  .banner-project .deera__banner-img {
+    width: 100%;
+    height: 100%;
+  }
+  .project__special {
+    padding: 60px 16px 50px 16px;
+  }
+  .project__special-box {
+    gap: 8px;
+    padding-bottom: 0;
+  }
+  .project__special-img {
+    width: 40%;
+    min-width: 40%;
+    height: 171px;
+  }
+  .project__special-img img {
+    border-radius: 10px;
+  }
+  .project__special-content {
+    padding-top: 0;
+  }
+  .project__special-name {
+    font-size: 18px;
+  }
+  .project__special-name a {
+    display: block;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .project__special-desc {
+    font-size: 14px;
+  }
+  .project__special-desc a {
+    display: block;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .project-line {
+    max-width: 100%;
+  }
+  .project__deera-list {
+    padding: 40px 16px 40px 16px;
+    gap: 8px;
+    align-items: flex-end;
+  }
+  .project__deera-left {
+    width: 24%;
+    min-width: 24%;
+    height: 81px;
+    margin-bottom: 30px;
+  }
+  .project__deera-left img {
+    border-radius: 0;
+  }
+  .project__deera-right {
+    gap: 8px;
+    align-items: flex-end;
+  }
+  .project__deera-item:nth-child(1) {
+    height: 152px;
+  }
+  .project__deera-item:nth-child(2) {
+    height: 105px;
+    margin-bottom: 30px;
+  }
+  .project__deera-title {
+    display: none;
+  }
+  .project__deera__item-img img {
+    border-radius: 0;
+  }
+  .project__images {
+    padding: 40px 16px;
+  }
+  .project__images-box {
+    gap: 0;
+  }
+  .project__images-item {
+    width: 25% !important;
+    height: 105px !important;
+  }
+  .project__images-item a img {
+    border-radius: 0;
   }
 }
 

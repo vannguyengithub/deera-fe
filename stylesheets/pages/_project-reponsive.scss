@@ -1,0 +1,203 @@
+
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+    .banner-project {
+        .deera__banner-img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .project__special {
+        padding: 60px 16px 50px 16px;
+        &-box {
+            gap: 24px;
+            padding-bottom: 0;
+        }
+        &-img {
+            width: 45%;
+            min-width: 45%;
+            height: 230px;
+            img {
+                border-radius: 10px;
+            }
+        }
+        &-content {
+            padding-top: 0;
+        }
+        &-name {
+            font-size: 20px;
+            a {
+                display: block;
+                color: #000000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+        &-desc {
+            font-size: 16px;
+            a {
+                display: block;
+                color: #000000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                line-clamp: 4;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+    .project-line {
+        max-width: 100%;
+    }
+
+    .project__deera {
+        &-list {
+            padding: 40px 16px 40px 16px;
+            gap: 8px;
+            // align-items: flex-end;
+        }
+        &-left {
+            height: 327px;
+            img {
+                border-radius: 20px;
+            }
+        }
+        &-right {
+            gap: 8px;
+            align-items: flex-end;
+        }
+        &-item {
+            height: 250px;
+        }
+    }
+    .project__images {
+        padding: 40px 16px;
+        &-box {
+            gap: 8px;
+        }
+        &-item {
+            // width: calc(100% / 4) !important;
+            // height: 105px !important;
+            a {
+                img {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+// mobile
+@media (max-width: 480px) {
+    .banner-project {
+        .deera__banner-img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .project__special {
+        padding: 60px 16px 50px 16px;
+        &-box {
+            gap: 8px;
+            padding-bottom: 0;
+        }
+        &-img {
+            width: 40%;
+            min-width: 40%;
+            height: 171px;
+            img {
+                border-radius: 10px;
+            }
+        }
+        &-content {
+            padding-top: 0;
+        }
+        &-name {
+            font-size: 18px;
+            a {
+                display: block;
+                color: #000000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+        &-desc {
+            font-size: 14px;
+            a {
+                display: block;
+                color: #000000;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                line-clamp: 4;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+    .project-line {
+        max-width: 100%;
+    }
+
+    .project__deera {
+        &-list {
+            padding: 40px 16px 40px 16px;
+            gap: 8px;
+            align-items: flex-end;
+        }
+        &-left {
+            width: 24%;
+            min-width: 24%;
+            height: 81px;
+            margin-bottom: 30px;
+            img {
+                border-radius: 0;
+            }
+        }
+        &-right {
+            gap: 8px;
+            align-items: flex-end;
+        }
+        &-item {
+            &:nth-child(1) {
+                height: 152px;
+            }
+            &:nth-child(2) {
+                height: 105px;
+                margin-bottom: 30px;
+            }
+        }
+        &-title {
+            display: none;
+        }
+        &__item-img {
+            img {
+                border-radius: 0;
+            }
+        }
+    }
+    .project__images {
+        padding: 40px 16px;
+        &-box {
+            gap: 0;
+        }
+        &-item {
+            width: calc(100% / 4) !important;
+            height: 105px !important;
+            a {
+                img {
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
