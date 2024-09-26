@@ -21,11 +21,16 @@
 @use 'pages/home';
 @use 'pages/termspolyci';
 @use 'pages/detail-kol';
-@use 'pages/newsofdeera';
+@use 'pages/news';
 @use 'pages/kols-kocs';
 @use 'pages/services';
 @use 'pages/fequently-questions';
 @use 'pages/news-title';
+
+@use 'pages/fequently-questions-reponsive';
+@use 'pages/termspolyci-reponsive';
+@use 'pages/news-title-reponsive';
+@use 'pages/news-reponsive';
 
 // 6. Themes
 @use 'themes/default';

@@ -1,0 +1,73 @@
+
+// mobile
+
+@media (max-width: 480px) {
+  .fequently-questions {
+    width: 100%;
+    .deera__banner-img{
+      width: auto;
+      max-width: 345px;
+      margin: 0 16px;
+      // height: 278px;
+      img {
+        object-fit: contain;
+      }
+    }
+
+    .deera__banner-text{
+      width: auto;
+      margin: 10px 16px 0;
+    }
+
+    &-note{
+      padding: 60px 16px 75px;
+    }
+
+    &-content{
+      padding: 25px 16px;
+    }
+
+    &-title{
+      padding-bottom: 18px;
+      font-weight: 500;
+      font-size: 18px;
+      &:last-child{
+        padding-bottom: 22px;
+      }
+    }
+
+    &-subtitle{
+      font-size: 16px;
+      font-weight: 300;
+      p{
+        font-size: 16px;
+      }
+    }
+
+    &-item{
+      &:not(:last-child) {
+        padding-bottom: 22px;
+      }
+    }
+
+    &-list{
+      &-item{
+        font-size: 16px;
+        padding-left: 8px;
+      &::before{
+          content: "•"; /* Use a disc-like symbol */
+          font-size: 4px; /* Adjust the size as needed */
+          position: absolute;
+          left: 0%; /* Adjust positioning to align the bullet properly */
+          top: 10%;
+        }
+      }
+    }
+  }
+}
+
+
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+
+}
