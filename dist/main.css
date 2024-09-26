@@ -3365,6 +3365,7 @@ main {
     border: unset;
     text-decoration: underline;
   }
+}
 @media (min-width: 481px) and (max-width: 1024px) {
   header {
     background: #000000;
@@ -5123,5 +5124,5 @@ main {
     font-size: 12px;
   }
 }
-}
+
 /*# sourceMappingURL=main.css.map */
