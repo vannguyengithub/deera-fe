@@ -1,0 +1,302 @@
+
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+    .banner-kolskocs {
+        .deera__banner-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .introKolKoc {
+        &__box {
+            position: relative;
+            padding: 100px 16px 50px 16px;
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+        .common__title {
+            font-size: 50px;
+        }
+        &__img-bg {
+            display: none;
+        }
+        &__content {
+            gap: 0px;
+            flex-wrap: wrap;
+        }
+        &__content-ttl {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        &__content-desc {
+            margin-top: 0;
+            font-size: 14px;
+        }
+
+        &__content-btn {
+            a {
+                font-size: 14px;
+                padding: 8px 14px;
+            }
+        }
+    }
+    .item__image-one {
+        width: 40%;
+        img {
+            width: 100%;
+            height: 104px;
+        }
+    }
+    .item__image-two {
+        width: 60%;
+        img {
+            width: 100%;
+            height: 230px;
+        }
+    }
+    .item__image-three {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .kolkoc__title {
+        .common__title {
+            font-size: 50px;
+        }
+    }
+    .kolkoc__inner {
+        padding: 90px 16px;
+    }
+    .kolkoc {
+        &__box {
+            position: relative;
+        }
+        &__list {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 8px;
+            row-gap: 30px;
+        }
+        &__img {
+            height: 187px;
+            img {
+                border-radius: 15px;
+            }
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__detai-social {
+            gap: 4px;
+        }
+        &__item {
+            border-radius: 15px;
+        }
+        &__title {
+            padding-bottom: 80px;
+        }
+    }
+    .kolkoc__detai {
+        &-social {
+            flex-wrap: wrap;
+        }
+        &-social-chanel {
+            font-size: 11px;
+        }
+        &-social-total {
+            font-size: 16px;
+        }
+    }
+    .click__seemore a {
+        font-size: 14px;
+    }
+    .kolkoc__star-one {
+        top: -28px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .showmore {
+        position: unset;
+    }
+    .filter__kol-box {
+        bottom: unset;
+        top: 75px;
+        left: 0;
+    }
+
+    .filter__kol-list {
+        justify-content: center;
+    }
+    .filter__kol-label {
+        font-size: 14.8px;
+        width: 449px;
+        margin: 0 auto 6px auto;
+    }
+    .filter__kol-search {
+        border-radius: 6px;
+        input{
+            width: 150px;
+            border-radius: 6px;
+        }
+    }
+    .filter__kol-btn {
+        width: 150px;
+        a {
+            border-radius: 6px;
+            font-size: 12px;
+        }
+    }
+}
+
+// mobile
+@media (max-width: 480px) {
+    .banner-kolskocs {
+        .deera__banner-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .introKolKoc {
+        &__box {
+            position: relative;
+            padding: 100px 16px 50px 16px;
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+        .common__title {
+            font-size: 50px;
+        }
+        &__img-bg {
+            display: none;
+        }
+        &__content {
+            gap: 0px;
+            flex-wrap: wrap;
+        }
+        &__content-ttl {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        &__content-desc {
+            margin-top: 0;
+            font-size: 14px;
+        }
+
+        &__content-btn {
+            a {
+                font-size: 14px;
+                padding: 8px 14px;
+            }
+        }
+    }
+    .item__image-one {
+        width: 40%;
+        img {
+            width: 100%;
+            height: 104px;
+        }
+    }
+    .item__image-two {
+        width: 60%;
+        img {
+            width: 100%;
+            height: 230px;
+        }
+    }
+    .item__image-three {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .kolkoc__title {
+        .common__title {
+            font-size: 50px;
+        }
+    }
+    .kolkoc__inner {
+        padding: 90px 16px;
+    }
+    .kolkoc {
+        &__box {
+            position: relative;
+        }
+        &__list {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+            row-gap: 30px;
+        }
+        &__img {
+            height: 187px;
+            img {
+                border-radius: 15px;
+            }
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__detai-social {
+            gap: 4px;
+        }
+        &__item {
+            border-radius: 15px;
+        }
+        &__title {
+            padding-bottom: 80px;
+        }
+    }
+    .kolkoc__detai {
+        &-social {
+            flex-wrap: wrap;
+        }
+        &-social-chanel {
+            font-size: 11px;
+        }
+        &-social-total {
+            font-size: 16px;
+        }
+    }
+    .click__seemore a {
+        font-size: 14px;
+    }
+    .kolkoc__star-one {
+        top: -28px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .showmore {
+        position: unset;
+    }
+    .filter__kol-box {
+        bottom: unset;
+        top: 75px;
+        left: 0;
+    }
+
+    .filter__kol-list {
+        justify-content: center;
+    }
+    .filter__kol-label {
+        font-size: 14.8px;
+        width: 337px;
+        margin: 0 auto 6px auto;
+    }
+    .filter__kol-search {
+        border-radius: 6px;
+        input{
+            width: 110px;
+            border-radius: 6px;
+        }
+    }
+    .filter__kol-btn {
+        width: 110px;
+        a {
+            border-radius: 6px;
+            font-size: 12px;
+        }
+    }
+}

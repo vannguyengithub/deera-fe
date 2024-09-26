@@ -5,6 +5,12 @@
     header {
         // overflow: hidden;
         background: #000000;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        border-bottom: 1px solid #000000;
     }
    .header {
        &__main {
@@ -91,6 +97,12 @@
     header {
         // overflow: hidden;
         background: #000000;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        border-bottom: 1px solid #000000;
     }
    .header {
        &__main {
