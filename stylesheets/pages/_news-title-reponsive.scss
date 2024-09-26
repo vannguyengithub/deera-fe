@@ -1,0 +1,71 @@
+
+// mobile
+
+@media (max-width: 480px) {
+  .news-item {
+
+    &-bg {
+      padding: 25px 0;
+    }
+
+    &-dflex{
+      padding: unset;
+    }
+  
+
+    &-content{
+      width: 100%;
+      padding-top: unset;
+    }
+
+    &-headling{
+      text-align: center;
+      font-size: 32px;
+      line-height: 130%;
+    }
+
+    &-history{
+      display: none;
+    }
+
+    &-date_mb{
+      text-align: center;
+      font-size: 16px;
+      font-family: "Gilroy";
+    }
+  }
+
+  .detail__new-content {
+    font-family: "Gilroy";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    &-images {
+     display: flex;
+     img{
+      width: 100%;
+      height: 100%;
+     }
+    }
+    p{
+      margin: unset;
+      margin: 16px;
+      line-height: 200%;
+    }
+    &-time{
+      font-size: 16px;
+      margin: 30px 16px 0;
+    }
+  }
+
+  .history__new-content {
+    display: none;
+    margin-top: 4px;
+  }
+}
+  
+  
+// tablet
+@media (min-width: 481px) and (max-width: 1024px) {
+
+}
